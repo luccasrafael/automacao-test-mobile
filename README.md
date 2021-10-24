@@ -20,6 +20,12 @@ Testes para validar as partições de equivalência relacionadas ao valor do pro
 
 ## 📝 Notas Gerais
 
+- Sempre utilizamos a anotação Before Each para instalar e abrir o app que será utilizado posteriormente nos métodos de teste, assim, garantindo a integridade dos testes.
+
+- Sempre utilizamos a anotação After Each para fechar o app que foi utilizado pelos métodos de teste, assim, garantindo a integridade dos testes.
+
+- Foi utilizado Page Objects para que as telas implementadas nos testes possam ser reaproveitadas, facilitando testes futuros.
+
 - Nesse projeto fazemos uso do JUnit 5, o que nos dá a possibilidade de usar a anotação DisplayName para dar descrições em português para nossos testes
 
 
