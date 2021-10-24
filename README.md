@@ -1,4 +1,4 @@
-# Lojinha API Automação
+# Lojinha Mobile Automação
 Automação de testes Mobile de um software denominado Lojinha. Os sub-tópicos abaixo descrevem algumas decisões tomadas na estruturação do projeto.
 
 
